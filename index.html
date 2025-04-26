@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harshil Shah's Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <div class="container">
+      <ul class="menu">
+        <li><a href="#education">Education</a></li>
+        <li><a href="#work">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <!-- Profile Section -->
+  <section id="profile">
+    <div class="container">
+      <div class="profile">
+        <div class="profile-img">
+          <img src="profile/12.svg" alt="Harshil Shah" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+        </div>
+        <div class="profile-info">
+          <h1>Harshil Shah</h1>
+          <p class="summary">
+            Experienced Software Engineer specializing in backend development, distributed systems, and data engineering. Currently driving scalable solutions at Peloton Interactive, with a proven track record of impactful projects at Amazon Prime Video and other industry leaders. Passionate about architecting high-performance, reliable systems that enhance user experiences at scale. Always seeking innovative ways to push the boundaries of efficiency and resilience in modern software development.
+          </p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/harshil-shah-nc" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Education Section -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline" id="education-container">
+        <div class="timeline-item">
+          <h3>BSc</h3>
+          <span class="graduation-date">May 2021</span>
+          <p class="school">University of Western Ontario</p>
+          <p class="field">Medical Science and Biology</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Work Experience Section -->
+  <section id="work">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="timeline" id="experience-container">
+        <div class="timeline-item">
+          <h3 class="position">Software Engineer 3</h3>
+          <p class="institution">Peloton Interactive</p>
+          <span class="duration">Oct 2024 – Present</span>
+          <div class="description">
+            <ul>
+              <li>Led the design and development of scalable microservices for Peloton’s fitness platform.</li>
+              <li>Engineered real-time data pipelines using Python and Kafka.</li>
+              <li>Improved personalization features by optimizing data storage with PostgreSQL and DynamoDB.</li>
+              <li>Led the migration of GRPC services to a multicluster architecture.</li>
+              <li>Supported cloud infrastructure for enterprise systems.</li>
+            </ul>
+          </div>
+          <div class="techniques">
+            <span class="technique-tag">Python</span>
+            <span class="technique-tag">Kafka</span>
+            <span class="technique-tag">PostgreSQL</span>
+            <span class="technique-tag">DynamoDB</span>
+            <span class="technique-tag">AWS</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <h3 class="position">Full Stack Developer</h3>
+          <p class="institution">VoGro</p>
+          <span class="duration">Sept 2023 – Sept 2024</span>
+          <div class="description">
+            <ul>
+              <li>Developed a dashboard for analytics of payments, members, and sign-ups.</li>
+              <li>Designed a scalable volunteer engagement application.</li>
+              <li>Managed AWS-based back-end services and CI/CD pipelines.</li>
+              <li>Collaborated with an agile team for UX-driven development.</li>
+            </ul>
+          </div>
+          <div class="techniques">
+            <span class="technique-tag">React.js</span>
+            <span class="technique-tag">Node.js</span>
+            <span class="technique-tag">Flutter</span>
+            <span class="technique-tag">AWS</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <h3 class="position">Software Engineer 2</h3>
+          <p class="institution">Amazon Prime Video</p>
+          <span class="duration">Oct 2022 – Sept 2023</span>
+          <div class="description">
+            <ul>
+              <li>Designed scalable Java/Kotlin services for Prime Video Sports.</li>
+              <li>Designed resilient API frameworks for global distributed environments.</li>
+              <li>Automated generation and distribution of dynamic media assets.</li>
+              <li>Developed a micro-service on top of Lambda for customer data processing.</li>
+              <li>Led production support efforts, resolving latency and availability issues.</li>
+            </ul>
+          </div>
+          <div class="techniques">
+            <span class="technique-tag">Java</span>
+            <span class="technique-tag">Kotlin</span>
+            <span class="technique-tag">AWS Lambda</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid" id="projects-container">
+        <div class="project-item">
+          <h3 class="project-title">Voice AI Appointment Scheduler</h3>
+          <p class="project-duration">December 2023 – January 2024</p>
+          <p class="project-description">Developed a voice AI system to automate appointment scheduling over the phone.</p>
+          <div class="project-tech">
+            <span class="tech-tag">vocode</span>
+            <span class="tech-tag">elevenlabs</span>
+            <span class="tech-tag">twillio</span>
+            <span class="tech-tag">python</span>
+            <span class="tech-tag">django</span>
+          </div>
+          <div class="project-outcomes">
+            <h4>Outcomes:</h4>
+            <ul>
+              <li>Automated appointment scheduling</li>
+              <li>Implemented conversational flow</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-item">
+          <h3 class="project-title">Western University Room Finder</h3>
+          <p class="project-duration">March 2018 – May 2018</p>
+          <p class="project-description">Developed a service to help students find available study rooms.</p>
+          <div class="project-tech">
+            <span class="tech-tag">databases</span>
+            <span class="tech-tag">sql</span>
+            <span class="tech-tag">react</span>
+          </div>
+          <div class="project-outcomes">
+            <h4>Outcomes:</h4>
+            <ul>
+              <li>Helped 100+ students</li>
+              <li>Optimized query performance</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-item">
+          <h3 class="project-title">Twixter</h3>
+          <p class="project-duration">March 2024 – May 2024</p>
+          <p class="project-description">Built a React Application to browse top streams from Twitch and Mixer.</p>
+          <div class="project-tech">
+            <span class="tech-tag">databases</span>
+            <span class="tech-tag">nosql</span>
+            <span class="tech-tag">react</span>
+          </div>
+          <div class="project-outcomes">
+            <h4>Outcomes:</h4>
+            <ul>
+              <li>Created card-like React components</li>
+              <li>Displayed stream-related data</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Technical Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-container" id="technical-skills-container">
+        <div class="skills-category">
+          <h3>Technical Skills</h3>
+          <div class="skills-list">
+            <span class="skill-item">Linux</span>
+            <span class="skill-item">MongoDB</span>
+            <span class="skill-item">Elasticsearch</span>
+            <span class="skill-item">C/C++</span>
+            <span class="skill-item">Java</span>
+            <span class="skill-item">Kotlin</span>
+            <span class="skill-item">.NET</span>
+            <span class="skill-item">CSS</span>
+            <span class="skill-item">SQL</span>
+            <span class="skill-item">JavaScript</span>
+            <span class="skill-item">Python</span>
+            <span class="skill-item">Git</span>
+            <span class="skill-item">Docker</span>
+            <span class="skill-item">React</span>
+            <span class="skill-item">Jenkins</span>
+            <span class="skill-item">Kubernetes</span>
+            <span class="skill-item">Terraform</span>
+            <span class="skill-item">Kafka</span>
+            <span class="skill-item">Datadog</span>
+            <span class="skill-item">AWS (EC2, S3, DynamoDB)</span>
+            <span class="skill-item">CircleCI</span>
+            <span class="skill-item">Google Cloud Platform</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:harshilshah.nc@gmail.com">harshilshah.nc@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+19196566173">919-656-6173</a></p>
+        <p><strong>Location:</strong> New York, NY</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/harshil-shah-nc" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Harshil Shah. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
